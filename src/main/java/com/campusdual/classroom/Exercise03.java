@@ -20,7 +20,7 @@ public class Exercise03 {
         if ("Sebas".equals(user) && "sebas01".equals(pass)) {
             System.out.println(greetings(user));
         } else {
-            System.out.println(error(user));
+            System.out.println(error("Sebas"));
         }
     }
 
